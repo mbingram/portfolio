@@ -1,4 +1,5 @@
 import React from 'react';
+import shapes from '../Images/abstract-shape.png'
 
 function Contact() {
     return (
@@ -17,21 +18,21 @@ function Contact() {
                 </div>
                 <div className="flex flex-row w-full justify-between">
                     <div className="flex flex-col justify-center ml-auto mr-20">
-                        <button className="mb-3 px-6 py-2 bg-white border border-pink-400 rounded-md font-semibold text-center"
+                        <button className="mb-3 px-6 py-2 bg-white border border-pink-400 rounded-md font-semibold text-center text-violet-950 hover:text-white hover:bg-violet-950"
                             onClick={() => window.open("mailto:mbingramm@gmail.com", "_blank")} >
                             mbingramm@gmail.com
                         </button>
-                        <button className="mb-3 px-6 py-2 bg-white border border-pink-400 rounded-md font-semibold text-center"
+                        <button className="mb-3 px-6 py-2 bg-white border border-pink-400 rounded-md font-semibold text-center text-violet-950 hover:text-white hover:bg-violet-950"
                             onClick={() => window.open("https://www.linkedin.com/in/mbingram/", "_blank")} >
                             LinkedIn
                         </button>
-                        <button className="mb-3 px-6 py-2 bg-white border border-pink-400 rounded-md font-semibold text-center"
+                        <button className="mb-3 px-6 py-2 bg-white border border-pink-400 rounded-md font-semibold text-center text-violet-950 hover:text-white hover:bg-violet-950"
                             onClick={() => window.open("https://github.com/mbingram", "_blank")} >
                             GitHub
                         </button>
                     </div>
                     <div className="w-1/2">
-                        <img src="https://via.placeholder.com/300" alt="Your Headshot" className="rounded-md shadow-md" />
+                        <img src={shapes} alt="shapes" className="w-3/5" />
                     </div>
                 </div>
 

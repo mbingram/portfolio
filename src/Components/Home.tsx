@@ -12,7 +12,7 @@ function Home() {
                     <div className="w-1/2 mr-20">
                         <p className="text-lg text-right leading-relaxed">
                             - a passionate software developer with over 2 years of professional experience.
-                            I specialize in creating clean, user-centric applications that not only function well but also look great.
+                            I specialize in creating clean, user-centric applications that not only function well, but also look great.
                             <br /> <br />
                             I strive to make an impact through my work. My skill set ranges from full-stack development to a keen eye for design.
                             This portfolio is a showcase of my journey and capabilities in the tech world.
