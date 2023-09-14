@@ -10,14 +10,15 @@ function AboutMe() {
                 <div className="relative bg-violet-950 py-8 pl-20 -ml-60 mb-5 border-r border-y border-pink-400 rounded-r-md">
                     <h2 className="text-3xl font-semibold text-violet-50 absolute -mt-3 ml-40">A Bit More About Me</h2>
                 </div>
-                <p className="mb-8">
+                <div className="h-5/6 flex flex-col justify-evenly">
+                <p>
                     I hope to utilize my technical skills and knowledge to make a positive impact on the world, using technology to solve real-world
                     problems. My aim is to create innovative and effective solutions that will improve people's lives and enhance their experiences,
                     and I am committed to working collaboratively with like-minded professionals to achieve our common goals.
                     <br />
                     <p className="font-semibold text-violet-950">Ultimately, I aspire to be part of a team that is making a meaningful difference in the world.</p>
                 </p>
-                <div className="flex flex-row justify-evenly mb-10 mt-10">
+                <div className="flex flex-row justify-evenly my-8">
                     <img src={art} alt="art" className="w-1/4 border border-violet-300 hover:border-pink-400 drop-shadow-lg rounded-md" />
                     <img src={snowboard} alt="Snowboard" className="w-1/4 border border-violet-300 hover:border-pink-400 drop-shadow-lg rounded-md" />
                     <img src={art2} alt="art2" className="w-1/4 border border-violet-300 hover:border-pink-400 drop-shadow-lg rounded-md" />
@@ -32,6 +33,7 @@ function AboutMe() {
                     a fictional fantasy world, there is no greater joy for me in life than discovering new experiences and
                     uncovering life's possibilities.
                 </p>
+                </div>
             </div>
         </div>
     );

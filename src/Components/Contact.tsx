@@ -8,7 +8,7 @@ function Contact() {
                 <div className="relative bg-violet-950 py-8 pl-20 -ml-60 mb-5 border-r border-y border-pink-400 rounded-r-md">
                     <h2 className="text-3xl font-semibold text-violet-50 absolute -mt-3 ml-40">Let's Get in Touch!</h2>
                 </div>
-                <div className="mb-10">
+                <div className="mb-10 max-w-2xl">
                     Got a project in mind, or simply want to chat about tech? I'm all ears.
                     <br /> <br />
                     Whether it's a collaborative opportunity or you just want to share some industry insights,
