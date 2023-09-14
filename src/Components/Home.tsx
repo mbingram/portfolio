@@ -8,7 +8,7 @@ function Home() {
                 <div className="relative bg-violet-950 py-8 pl-20 -ml-60 mb-10 border-r border-y border-pink-400 rounded-r-md">
                     <h2 className="text-3xl font-semibold text-violet-50 absolute -mt-3 ml-40">Hello! I'm Mary Beth -</h2>
                 </div>
-                <div className="flex flex-row w-full">
+                <div className="flex flex-row w-full mx-auto max-w-6xl">
                     <div className="w-1/2 mr-20">
                         <p className="text-lg text-right leading-relaxed">
                             - a passionate software developer with over 2 years of professional experience.

@@ -8,7 +8,7 @@ function Skills() {
                     <h2 className="text-3xl font-semibold text-violet-50 absolute -mt-3 ml-40 pl-10">Skills and Notable Experience</h2>
                 </div>
                 <div className="h-5/6 flex flex-col justify-evenly">
-                    <div className="flex flex-row w-full px-10">
+                    <div className="flex flex-row w-full max-w-6xl px-10 mx-auto">
                         <div className="w-1/6 mr-6">
                             <ul className="list-disc pl-5 text-violet-950">
                                 <li>JavaScript</li>
