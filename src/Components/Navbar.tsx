@@ -6,7 +6,7 @@ import contact from '../Images/phone-call.png'
 
 function Navbar() {
     return (
-        <div className="flex flex-col min-h-screen w-1/6 sm:w-2/6 bg-violet-950 py-6 font-medium">
+        <div className="flex flex-col min-h-screen w-1/6 sm:w-2/6 bg-violet-950 py-6 font-medium lg:text-xl">
             <ul>
                 <Link to="/" >
                     <div className="flex flex-row items-center px-4 cursor-pointer text-white hover:bg-violet-100 hover:text-violet-950 border border-violet-950 hover:border-pink-400" >

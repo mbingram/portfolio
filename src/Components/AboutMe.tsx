@@ -5,12 +5,12 @@ import snowboard from '../Images/IMG_0425.jpg'
 function AboutMe() {
     return (
         <div className="bg-gradient-to-r from-violet-950 to-violet-50 p-8 sm:p-4 pt-10 sm:pt-5 w-screen flex flex-row justify-center overflow-hidden">
-            <div className="w-5/6 max-w-7xl py-5 px-10 sm:px-3 h-auto mx-auto bg-violet-50 drop-shadow-lg rounded-md border border-pink-400">
-                <div className="relative bg-violet-950 py-8 pl-20 -ml-60 sm:-ml-20 mb-10 sm:mb-8 border-r border-y border-pink-400 rounded-r-md">
-                    <h2 className="text-3xl sm:text-xl font-semibold text-violet-50 absolute -mt-3 ml-40 sm:ml-5">A Bit More About Me</h2>
+            <div className="w-5/6 ml-0 max-w-7xl py-5 px-10 sm:px-3 h-auto mx-auto bg-violet-50 drop-shadow-lg rounded-md border border-pink-400">
+                <div className="relative bg-violet-950 py-8 pl-20 -ml-60 sm:-ml-20 mb-10 md:mb-5 sm:mb-5 border-r border-y border-pink-400 rounded-r-md">
+                    <h2 className="text-3xl md:text-2xl sm:text-xl font-semibold text-violet-50 absolute -mt-3 ml-40 sm:ml-5">A Bit More About Me</h2>
                 </div>
-                <div className="h-5/6 flex flex-col justify-evenly sm:text-sm">
-                    <p>
+                <div className="flex flex-col justify-evenly px-3 text-lg md:text-base sm:text-sm">
+                    <p className="mb-5">
                         I hope to utilize my technical skills and knowledge to make a positive impact on the world, using technology to solve real-world
                         problems. My aim is to create innovative and effective solutions that will improve people's lives and enhance their experiences,
                         and I am committed to working collaboratively with like-minded professionals to achieve our common goals.

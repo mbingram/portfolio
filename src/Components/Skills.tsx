@@ -3,11 +3,11 @@
 function Skills() {
     return (
         <div className="bg-gradient-to-r from-violet-950 to-violet-50 p-8 sm:p-4 pt-10 sm:pt-5 w-screen flex flex-row justify-center overflow-hidden">
-            <div className="w-5/6 max-w-7xl py-5 px-10 sm:px-3 h-auto mx-auto bg-violet-50 drop-shadow-lg rounded-md border border-pink-400">
+            <div className="w-5/6 ml-0 max-w-7xl py-5 px-10 sm:px-3 h-auto mx-auto bg-violet-50 drop-shadow-lg rounded-md border border-pink-400">
                 <div className="relative bg-violet-950 py-8 pl-20 -ml-60 sm:-ml-20 mb-10 sm:mb-5 border-r border-y border-pink-400 rounded-r-md">
-                    <h2 className="text-3xl sm:text-xl font-semibold text-violet-50 absolute -mt-3 ml-40 sm:ml-5">Skills and Notable Experience</h2>
+                    <h2 className="text-3xl md:text-2xl sm:text-xl font-semibold text-violet-50 absolute -mt-3 ml-40 sm:ml-5">Skills and Notable Experience</h2>
                 </div>
-                <div className="h-5/6 sm:h-auto flex flex-col justify-evenly sm:text-sm">
+                <div className="h-5/6 sm:h-auto lg:px-3 flex flex-col justify-evenly text-lg md:text-base sm:text-sm">
                     <div className="w-full max-w-6xl px-10 sm:px-0 mx-auto">
                         <div className="w-1/6 sm:w-1/3 mr-6 sm:mr-2 float-left">
                             <ul className="list-disc pl-5 text-violet-950 sm:mb-5">

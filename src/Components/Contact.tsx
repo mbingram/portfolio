@@ -3,11 +3,11 @@ import shapes from '../Images/abstract-shape.png'
 function Contact() {
     return (
         <div className="bg-gradient-to-r from-violet-950 to-violet-50 p-8 sm:p-4 pt-10 sm:pt-5 w-screen flex flex-row justify-center overflow-hidden">
-            <div className="w-5/6 max-w-7xl py-5 px-10 sm:px-3 h-auto mx-auto bg-violet-50 drop-shadow-lg rounded-md border border-pink-400">
+            <div className="w-5/6 ml-0 max-w-7xl py-5 px-10 sm:px-3 h-auto mx-auto bg-violet-50 drop-shadow-lg rounded-md border border-pink-400">
                 <div className="relative bg-violet-950 py-8 pl-20 -ml-60 sm:-ml-20 mb-10 sm:mb-5 border-r border-y border-pink-400 rounded-r-md">
-                    <h2 className="text-3xl sm:text-xl font-semibold text-violet-50 absolute -mt-3 ml-40 sm:ml-5">Let's Get in Touch!</h2>
+                    <h2 className="text-3xl md:text-2xl sm:text-xl font-semibold text-violet-50 absolute -mt-3 ml-40 sm:ml-5">Let's Get in Touch!</h2>
                 </div>
-                <div className="w-full max-w-6xl mx-auto my-auto sm:text-sm">
+                <div className="w-full max-w-6xl mx-auto my-auto lg:px-3 text-lg md:text-base sm:text-sm">
                     <div className="mb-10 max-w-2xl">
                         Got a project in mind, or simply want to chat about tech? I'm all ears.
                         <br /> <br />
