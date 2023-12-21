@@ -1,14 +1,13 @@
-import React from 'react';
 import shapes from '../Images/abstract-shape.png'
 
 function Contact() {
     return (
-        <div className="bg-gradient-to-r from-violet-950 to-violet-50 p-8 pt-10 w-screen flex flex-row justify-center overflow-hidden">
-            <div className="w-5/6 max-w-7xl py-5 px-10 mx-auto bg-violet-50 drop-shadow-lg rounded-md border border-pink-400">
-                <div className="relative bg-violet-950 py-8 pl-20 -ml-60 mb-5 border-r border-y border-pink-400 rounded-r-md">
-                    <h2 className="text-3xl font-semibold text-violet-50 absolute -mt-3 ml-40">Let's Get in Touch!</h2>
+        <div className="bg-gradient-to-r from-violet-950 to-violet-50 p-8 sm:p-4 pt-10 sm:pt-5 w-screen flex flex-row justify-center overflow-hidden">
+            <div className="w-5/6 max-w-7xl py-5 px-10 sm:px-3 h-auto mx-auto bg-violet-50 drop-shadow-lg rounded-md border border-pink-400">
+                <div className="relative bg-violet-950 py-8 pl-20 -ml-60 sm:-ml-20 mb-10 sm:mb-5 border-r border-y border-pink-400 rounded-r-md">
+                    <h2 className="text-3xl sm:text-xl font-semibold text-violet-50 absolute -mt-3 ml-40 sm:ml-5">Let's Get in Touch!</h2>
                 </div>
-                <div className="w-full max-w-6xl mx-auto my-auto">
+                <div className="w-full max-w-6xl mx-auto my-auto sm:text-sm">
                     <div className="mb-10 max-w-2xl">
                         Got a project in mind, or simply want to chat about tech? I'm all ears.
                         <br /> <br />
@@ -19,7 +18,7 @@ function Contact() {
                     </div>
                     <div className="flex flex-row justify-evenly w-full">
                         <div className="flex flex-row w-full justify-between">
-                            <div className="flex flex-col justify-center ml-auto mr-20">
+                            <div className="flex flex-col justify-center ml-auto mr-20 sm:mr-5">
                                 <button className="mb-3 px-6 py-2 bg-white border border-pink-400 rounded-md font-semibold text-center text-violet-950 hover:text-white hover:bg-violet-950"
                                     onClick={() => window.open("mailto:mbingramm@gmail.com", "_blank")} >
                                     mbingramm@gmail.com
